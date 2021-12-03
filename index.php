@@ -44,7 +44,27 @@ $faq = [
 </head>
 
 <body>
-    <main>
+    <header style="margin-bottom: 5rem;">
+        <div style="display: flex;">
+            <img src="./img/logo-google.png" alt="" style="height: 60px; margin-right: 2rem;">
+            <h3 style="font-size: 30px; margin-top: 10px;">Privacy & Termini</h3>
+        </div>
+        <div style="display: flex;">
+            <a href="" style="margin-left: 1rem; text-decoration: none;">Introduzione</a>
+            <a href="" style="margin-left: 1rem; text-decoration: none;" >Norme sulla privacy</a>
+            <a href="" style="margin-left: 1rem; text-decoration: none;">Termini di servizio</a>
+            <a href="" style="margin-left: 1rem; text-decoration: none;">Tecnologie</a>
+            <a href="" style="margin-left: 1rem; text-decoration: none;" >Domande frequenti</a>
+        </div>
+        <div>
+
+            <span style="height: 1px; width: 100vw;"></span>
+        </div>
+    </header>
+    <main style=
+    "width: 900px;
+    margin: auto;
+    ">
         <?php
         foreach ($faq as $key => $value) {
         ?> <h2> <?php echo $value["domanda"] ?></h2> 
